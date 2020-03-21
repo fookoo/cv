@@ -1,0 +1,20 @@
+.stars-bar {
+  display:  flex;
+  flex-direction: row;
+
+  .star {
+    width: 16px;
+    height: 16px;
+
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
+
+    background: #414141;
+
+    &.on {
+      background: #f2511b;
+    }
+  }
+
+}
