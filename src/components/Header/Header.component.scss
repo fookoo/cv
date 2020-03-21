@@ -1,0 +1,51 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  h1 {
+    position: relative;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    a {
+      margin: 0 5px;
+
+    }
+
+    img {
+      height: 32px;
+      filter: grayscale(1);
+    }
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  @media only screen and (min-width: 48em) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  @media only screen and (min-width: 64em) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+
+  @media only screen and (min-width: 75em) {
+    h1 {
+      font-size: 7rem;
+    }
+  }
+}
+
+
+

@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  max-width: 1600px;
+
+  user-select: none;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+
+  &.mono {
+    font-family: monospace;
+  }
+}
+
+h2 {
+  margin-bottom: 10px;
+
+  &.overline {
+    position: relative;
+
+    margin-top: 90px;
+    margin-bottom: 20px;
+
+    &:after {
+      content: '';
+      position: absolute;
+
+      width: auto;
+      height: 4px;
+
+      background: #6a6a6a;
+
+      left: 25%;
+      right: 25%;
+      top: -55px;
+    }
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  h2 {
+    margin-top: 10px;
+    &.overline {
+      &:after {
+        width: 32px;
+
+        left: 0;
+        right: unset;
+        top: -18px;
+      }
+      &:before {
+        content: none;
+      }
+    }
+  }
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.accent-color {
+  color: #f2511b;
+}
+
+.experience > .row h4 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #414141;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.App {
+  padding: 0 30px;
+}

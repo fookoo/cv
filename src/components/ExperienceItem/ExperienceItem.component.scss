@@ -1,0 +1,60 @@
+.experience-item {
+    h3 {
+        font-size: 1.25rem;
+        margin-bottom: 5px;
+
+        .firm {
+            font-size: 1.5rem;
+            color: #f2511b;
+            margin-bottom: 10px;
+        }
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-weight: lighter;
+
+        color: #414141;
+    }
+
+    .period {
+        font-size: 12px;
+    }
+
+    .skills {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .nowrap span {
+        white-space: nowrap;
+    }
+
+    .location {
+        color: #b9b9b9;
+    }
+
+    margin-bottom: 80px;
+}
+
+// md+
+@media only screen and (min-width: 64em) {
+    .experience-item {
+        h3 {
+            font-size: 1.25rem;
+            margin-bottom: 5px;
+
+            .firm {
+                font-size: 1.25rem;
+                color: #f2511b;
+                margin-bottom: 0;
+            }
+        }
+        .period {
+            font-size: 16px;
+        }
+    }
+
+}
