@@ -986,3 +986,9 @@
     order: 1;
   }
 }
+
+@media print {
+  .show-print {
+    display: flex;
+  }
+}
