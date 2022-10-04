@@ -28,28 +28,9 @@ h1 {
 
 h2 {
   margin-bottom: 10px;
-
-  &.overline {
-    position: relative;
-
-    margin-top: 90px;
-    margin-bottom: 20px;
-
-    &:after {
-      content: '';
-      position: absolute;
-
-      width: auto;
-      height: 4px;
-
-      background: #6a6a6a;
-
-      left: 25%;
-      right: 25%;
-      top: -55px;
-    }
-  }
 }
+
+
 
 @media only screen and (min-width: 48em) {
   h2 {
